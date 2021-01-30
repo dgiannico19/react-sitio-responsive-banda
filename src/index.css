@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Cosmic-blaster';
+  src: local('Cosmic-blaster'),
+    url(fonts/Cosmic\ Blaster.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Sugare';
+  src: local('Sugare'), url(fonts/SUGARE.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cosmos-logic';
+  src: local('Cosmos-logic'),
+    url(fonts/Cosmos\ Logic\ Demo\ Version.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Daily-hours';
+  src: local('Daily-hours'), url(fonts/Daily\ Hours.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Good-moods';
+  src: local('Good-moods'), url(fonts/Good\ Mood.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Stay-home';
+  src: local('Stay-home'), url(fonts/STAY\ HOME.otf) format('truetype');
+}
+
+body {
+  color: white;
+  max-width: 1500px;
+  background-color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+  font-family: 'Cosmos-logic';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+iframe {
+  width: 100%;
+  border-radius: 0 15px 20px 25px;
+  box-shadow: 10px 0px 50px 20px black;
+  opacity: 0.8;
+  margin-bottom: 25px;
+}
+
+iframe:hover {
+  transition-property: opacity, box-shadow;
+  transition-duration: 2s, 2s;
+  opacity: 1;
+  box-shadow: 10px 0px 50px 20px rgba(13, 45, 159, 0.667);
+}
